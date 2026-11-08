@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  {% if page.title %}{% capture full_title %}{{ page.title }} | {{ site.title }}{% endcapture %}{% else %}{% capture full_title %}{{ site.title }} | {{ site.tagline }}{% endcapture %}{% endif %}
+  <title>{{ full_title }}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip | normalize_whitespace }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}">
+  <meta property="og:title" content="{{ full_title }}">
+  <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description | strip | normalize_whitespace }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">

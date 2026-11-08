@@ -48,6 +48,9 @@ h1, h2, h3 { line-height: 1.1; }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding-top: 22px; padding-bottom: 22px; }
 .brand { display: flex; align-items: center; gap: 12px; color: #FFFFFF; text-decoration: none; font-family: var(--display); font-weight: 700; font-size: 26px; letter-spacing: 0.2em; text-transform: uppercase; }
 .brand:hover { color: #FFFFFF; }
+.brand-text { display: flex; flex-direction: column; line-height: 1.05; }
+.brand-name { font-size: 26px; letter-spacing: 0.2em; }
+.brand-sub { font-family: var(--body); font-weight: 400; font-size: 14px; letter-spacing: 0.02em; text-transform: none; color: var(--muted-dark); margin-top: 4px; }
 .main-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 28px; font-family: var(--display); font-weight: 600; font-size: 17px; letter-spacing: 0.14em; text-transform: uppercase; }
 .main-nav a { color: #FFFFFF; text-decoration: none; padding: 10px 0; border-bottom: 2px solid transparent; }
 .main-nav a:hover, .main-nav a[aria-current="page"] { border-bottom-color: var(--gold); color: #FFFFFF; }

@@ -1,8 +1,11 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="{{ '/' | relative_url }}">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — home">
       {% include rings.html %}
-      <span>{{ site.title }}</span>
+      <span class="brand-text">
+        <span class="brand-name">{{ site.short_title }}</span>
+        <span class="brand-sub">at UH Mānoa · {{ site.tagline }}</span>
+      </span>
     </a>
     <nav class="main-nav" aria-label="Main">
       {% for item in site.nav %}
