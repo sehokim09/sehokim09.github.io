@@ -1,0 +1,14 @@
+# Courses, most recent first. Add a course by copying the block below.
+# Every field except code is optional.
+#
+# - code: "EPET 400"
+#   title: "Official course title"
+#   terms: "Fall 2026"
+#   description: "One or two sentences."
+
+- code: "EPET 401"
+  title: "Capstone course"        # TODO: replace with the official course title
+  terms: "Fall 2026"
+  description: "Student teams design and build subsystems of the HITechSat-1 CubeSat as their senior capstone projects."
+
+- code: "EPET 400"                # TODO: add title, terms and a short description

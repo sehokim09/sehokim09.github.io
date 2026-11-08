@@ -1,0 +1,13 @@
+# Publications, newest first. The home page shows the first 3.
+# Add a paper by copying the block below to the top of the list.
+#
+# - year: 2026
+#   title: "Paper title"
+#   authors: "S. Kim, A. Coauthor, B. Coauthor"
+#   venue: "Journal or conference name, volume(issue), pages"
+#   type: journal              # journal | conference | other
+#   doi: "10.xxxx/xxxxx"       # optional
+#   pdf: "/assets/papers/file.pdf"   # optional
+#   selected: true             # optional: show on the home page
+
+[]

@@ -1,0 +1,51 @@
+---
+layout: default
+title: People
+eyebrow: The lab
+permalink: /people/
+---
+{% assign pi = site.data.people.pi %}
+<section class="section">
+  <div class="container split">
+    <div>
+      <p class="eyebrow" style="color: var(--teal-text)">{{ pi.role }}</p>
+      <h2 class="section-title">{{ pi.name }}</h2>
+    </div>
+    <div class="prose">
+      <p><strong>{{ pi.title }}</strong><br><span class="meta">{{ pi.extra }}</span></p>
+      <p>{{ pi.bio }}</p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a> · <a href="{{ site.scholar_url }}">Google Scholar</a> · <a href="{{ site.higp_url }}">HIGP profile</a></p>
+    </div>
+  </div>
+</section>
+
+{% if site.data.people.members.size > 0 %}
+<section class="section section-mist">
+  <div class="container">
+    <div class="section-head"><h2 class="section-title">Members</h2></div>
+    <div class="cards">
+      {% for m in site.data.people.members %}
+      <article class="card">
+        {% if m.photo %}<img src="{{ m.photo | relative_url }}" alt="{{ m.name }}" style="border-radius: 6px; aspect-ratio: 1; object-fit: cover">{% endif %}
+        <span class="tag">{{ m.role }}</span>
+        <h3>{% if m.link %}<a href="{{ m.link }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</h3>
+        {% if m.focus %}<p>{{ m.focus }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.people.alumni.size > 0 %}
+<section class="section">
+  <div class="container">
+    <div class="section-head"><h2 class="section-title">Alumni</h2></div>
+    <ul class="rule-list">
+      {% for a in site.data.people.alumni %}<li><strong>{{ a.name }}</strong>{% if a.role %} · {{ a.role }}{% endif %}{% if a.now %} → {{ a.now }}{% endif %}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% include join.html %}

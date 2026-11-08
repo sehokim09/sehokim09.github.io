@@ -1,0 +1,22 @@
+---
+layout: default
+title: Publications
+eyebrow: Papers
+permalink: /publications/
+---
+<section class="section">
+  <div class="container">
+    {% if site.data.publications.size > 0 %}
+    {% assign by_year = site.data.publications | group_by: "year" %}
+    {% for group in by_year %}
+    <h2 class="pub-year">{{ group.name }}</h2>
+    <ul class="rule-list">
+      {% for p in group.items %}{% include pub-item.html pub=p %}{% endfor %}
+    </ul>
+    {% endfor %}
+    <p class="empty-note" style="margin-top: 32px">Full list on <a href="{{ site.scholar_url }}">Google Scholar</a>.</p>
+    {% else %}
+    <p class="empty-note">The publication list is being updated. In the meantime, see <a href="{{ site.scholar_url }}">Google Scholar</a>.</p>
+    {% endif %}
+  </div>
+</section>

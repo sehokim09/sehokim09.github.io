@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      {% include rings.html %}
+      <span>{{ site.title }}</span>
+    </a>
+    <nav class="main-nav" aria-label="Main">
+      {% for item in site.nav %}
+      <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+      <a class="nav-join" href="{{ '/people/#join' | relative_url }}">Join</a>
+    </nav>
+  </div>
+</header>

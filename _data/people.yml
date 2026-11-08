@@ -1,0 +1,24 @@
+# Lab members. Add students as they join.
+#
+# - name: "First Last"
+#   role: "Ph.D. student"           # e.g. Ph.D. student, M.S. student, Undergraduate, Postdoc
+#   focus: "One line on their project"
+#   photo: "/assets/img/people/first-last.jpg"   # optional
+#   link: "https://..."              # optional
+
+pi:
+  name: "Seho Kim"
+  role: "Principal Investigator"
+  title: "Assistant Professor, Hawaiʻi Institute of Geophysics and Planetology · Hawaiʻi Space Flight Laboratory"
+  extra: "Cooperating Graduate Faculty, Department of Earth Sciences, University of Hawaiʻi at Mānoa"
+  bio: >-
+    Seho develops microwave remote sensing techniques for Earth and planetary science — bistatic radar,
+    radio occultation, GNSS and signals-of-opportunity reflectometry — and the compact RF instruments and
+    CubeSats that fly them. Before joining HIGP he was a NASA JPL postdoctoral fellow (2023–2025), working on
+    sea ice thickness retrieval with Spire CubeSats and radio occultation for mapping Jupiter's magnetic field.
+    He received his Ph.D. from Purdue University (2023), where his work focused on SoOp reflectometry and NASA's
+    SNOOPI mission, and his M.S. (2018) and B.S. (2016) from Korea Aerospace University.
+
+members: []
+
+alumni: []

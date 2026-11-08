@@ -1,0 +1,19 @@
+---
+layout: default
+title: Teaching
+eyebrow: Courses
+permalink: /teaching/
+---
+<section class="section">
+  <div class="container">
+    <div class="cards">
+      {% for c in site.data.teaching %}
+      <article class="card">
+        <span class="tag">{{ c.code }}{% if c.terms %} · {{ c.terms }}{% endif %}</span>
+        {% if c.title %}<h3>{{ c.title }}</h3>{% else %}<h3>{{ c.code }}</h3>{% endif %}
+        {% if c.description %}<p>{{ c.description }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
