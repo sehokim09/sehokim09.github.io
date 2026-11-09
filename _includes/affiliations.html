@@ -1,0 +1,8 @@
+<section class="section affiliations" aria-label="Affiliations">
+  <div class="container">
+    <h2 class="affil-head">Affiliations &amp; collaborators</h2>
+    <div class="affil-grid">
+      {% for a in site.data.affiliations %}<a href="{{ a.url }}">{{ a.name }}</a>{% endfor %}
+    </div>
+  </div>
+</section>

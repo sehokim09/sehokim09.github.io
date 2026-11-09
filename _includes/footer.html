@@ -1,11 +1,24 @@
 <footer class="site-footer">
-  <div class="container footer-inner">
-    <span>© {{ site.time | date: "%Y" }} {{ site.title }} · {{ site.tagline }} · Hawaiʻi Institute of Geophysics and Planetology</span>
-    <nav aria-label="Footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <span class="footer-name">{{ site.title }}</span>
+      <span>{{ site.tagline }}</span>
+      <address>{{ site.address }}</address>
       <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+    <nav class="footer-col" aria-label="Quick links">
+      <span class="footer-head">Quick links</span>
+      {% for item in site.nav %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
+      <a href="{{ '/join/' | relative_url }}">Join the Lab</a>
+    </nav>
+    <nav class="footer-col" aria-label="Profiles">
+      <span class="footer-head">Profiles</span>
       <a href="{{ site.scholar_url }}">Google Scholar</a>
       <a href="{{ site.orcid_url }}">ORCID</a>
-      <a href="{{ site.higp_url }}">HIGP</a>
+      <a href="{{ site.linkedin_url }}">LinkedIn</a>
+      <a href="{{ site.github_url }}">GitHub</a>
+      <a href="{{ site.higp_url }}">HIGP profile</a>
     </nav>
   </div>
+  <div class="container footer-base">© {{ site.time | date: "%Y" }} {{ site.title }} · University of Hawaiʻi at Mānoa</div>
 </footer>

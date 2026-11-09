@@ -11,7 +11,7 @@
       {% for item in site.nav %}
       <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
-      <a class="nav-join" href="{{ '/people/#join' | relative_url }}">Join</a>
+      <a class="nav-join" href="{{ '/join/' | relative_url }}"{% if page.url == '/join/' %} aria-current="page"{% endif %}>Join the Lab</a>
     </nav>
   </div>
 </header>

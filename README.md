@@ -12,9 +12,12 @@ Most updates are a single edit to a file in `_data/`. You can edit them directly
 | Publications | `_data/publications.yml` (newest first; home page shows 3) |
 | Lab members | `_data/people.yml` |
 | Courses | `_data/teaching.yml` |
+| Community resources | `_data/resources.yml` |
+| Affiliations strip (home page) | `_data/affiliations.yml` |
+| Recruiting page | `join.html` |
 | Research text | `research.html` |
 | Home page text | `index.html` |
-| Email, Scholar and HIGP links, menu | `_config.yml` |
+| Email, address, profile links, menu | `_config.yml` |
 | Colors and fonts | `assets/css/style.css` (variables at the top) |
 
 Each data file has a commented example entry at the top to copy.

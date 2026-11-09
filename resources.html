@@ -1,0 +1,35 @@
+---
+layout: default
+title: Resources
+eyebrow: Tools &amp; data
+lede: Software from the lab, and community data sources we use.
+permalink: /resources/
+---
+<section class="section">
+  <div class="container">
+    <div class="section-head"><h2 class="section-title">Lab software</h2></div>
+    <div class="cards">
+      <a class="card card-link" href="https://github.com/sehokim09/SOCRATES">
+        <span class="tag">Software · Open source</span>
+        <h3>SOCRATES</h3>
+        <p>Signals of Opportunity Constellation and Remote sensing Analysis Tool for Earth Science: an end-to-end simulator for multi-frequency signals of opportunity, from constellation design to soil moisture retrieval.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-mist">
+  <div class="container">
+    <div class="section-head"><h2 class="section-title">Community resources</h2></div>
+    <div class="cards">
+      {% for r in site.data.resources %}
+      <a class="card card-link" href="{{ r.url }}">
+        <span class="tag">{{ r.type }}</span>
+        <h3>{{ r.name }}</h3>
+        <p>{{ r.description }}</p>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="empty-note" style="margin-top: 28px">Know a tool or dataset that belongs here? <a href="mailto:{{ site.email }}?subject=Resource%20suggestion">Let us know</a>.</p>
+  </div>
+</section>

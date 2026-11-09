@@ -1,0 +1,26 @@
+# Community resources shown on the Resources page.
+#
+# - name: "Name"
+#   type: "Data portal"
+#   url: "https://..."
+#   description: "One sentence."
+
+- name: "NASA Earthdata"
+  type: "Data portal"
+  url: "https://www.earthdata.nasa.gov/"
+  description: "NASA's Earth science data, including SMAP soil moisture and CYGNSS GNSS-Reflectometry products."
+
+- name: "CDDIS"
+  type: "GNSS data"
+  url: "https://cddis.nasa.gov/"
+  description: "NASA's archive of GNSS orbits, clocks and station data, plus ionospheric products."
+
+- name: "Commercial SmallSat Data Acquisition (CSDA)"
+  type: "Data program"
+  url: "https://www.earthdata.nasa.gov/esds/csda"
+  description: "NASA access to commercial smallsat data, including Spire GNSS-R and radio occultation."
+
+- name: "NASA Planetary Data System"
+  type: "Planetary data"
+  url: "https://pds.nasa.gov/"
+  description: "Archived planetary mission data, including radio science from Juno and Cassini."
