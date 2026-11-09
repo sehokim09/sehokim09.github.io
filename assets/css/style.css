@@ -204,3 +204,9 @@ h1, h2, h3 { line-height: 1.1; }
   .page-hero .container { padding-top: 48px; padding-bottom: 44px; }
   .deadline { font-size: 15px; }
 }
+
+/* Hero subline and Missions band */
+.hero-sub { margin: 0; font-size: 21px; line-height: 1.5; color: var(--muted-dark); max-width: 640px; }
+.spacecraft { background: var(--space); color: #FFFFFF; padding-top: 72px; padding-bottom: 72px; }
+.mission-sm { min-height: 360px; }
+@media (max-width: 640px) { .hero-sub { font-size: 18px; } .spacecraft { padding-top: 56px; padding-bottom: 56px; } }
