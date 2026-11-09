@@ -146,3 +146,4 @@ h1, h2, h3 { line-height: 1.1; }
   .join h2 { font-size: 36px; }
   .news-item { flex-direction: column; gap: 4px; }
 }
+.cards-3 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }

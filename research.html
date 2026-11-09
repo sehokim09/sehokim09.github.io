@@ -2,22 +2,40 @@
 layout: default
 title: Research
 eyebrow: What we do
-lede: Radio remote sensing of Earth and planets — using signals already in orbit and on the ground to measure what conventional sensors can't.
+lede: Radio remote sensing of Earth and planets — reusing signals already being broadcast, and purpose-built radio links, to measure what conventional sensors can't.
 permalink: /research/
 ---
 <section class="section">
-  <div class="container split" id="ecipes">
+  <div class="container split" id="ionosphere">
     <div>
       <p class="eyebrow" style="color: var(--teal-text)">Ionospheric remote sensing</p>
-      <h2 class="section-title">ECIPES: Tsunami detection</h2>
+      <h2 class="section-title">Ionospheric sensing with ship signals</h2>
     </div>
     <div class="prose">
-      <p>Ships at sea continuously broadcast their position over the Automatic Identification System (AIS), a VHF radio signal. At these low frequencies the signals are highly sensitive to the ionosphere's electron content. ECIPES uses AIS broadcasts as signals of opportunity to sense the ionosphere, with the goal of detecting the ionospheric disturbances that tsunamis generate as they travel across the ocean.</p>
+      <p>Ships at sea continuously broadcast their position over the Automatic Identification System (AIS), a VHF radio signal. At these low frequencies the signals are highly sensitive to the ionosphere, so we use AIS broadcasts as signals of opportunity to measure perturbations in ionospheric electron density.</p>
+      <p>A key application is <strong>tsunami detection</strong>: a tsunami pushes the atmosphere above it into waves that travel up and disturb the ionosphere. Dense ship traffic could turn the open ocean into a large network for spotting those disturbances.</p>
     </div>
   </div>
 </section>
 
 <section class="section section-mist">
+  <div class="container split" id="faraday">
+    <div>
+      <p class="eyebrow" style="color: var(--teal-text)">Radio science</p>
+      <h2 class="section-title">Magnetic fields &amp; plasma by Faraday rotation</h2>
+    </div>
+    <div class="prose">
+      <p>When a linearly polarized radio wave passes through a magnetized plasma, its plane of polarization rotates. The amount of rotation depends on both the electron density and the magnetic field along the path, so if one is known, the other can be solved for.</p>
+      <p>We use radio links between ground stations and spacecraft to measure this rotation and probe magnetic fields and plasma, from Earth's ionosphere to Jupiter's magnetosphere. Next, we are extending the technique to satellite-to-satellite crosslinks, which can sample regions that ground-based links cannot reach.</p>
+      <p class="meta" style="margin-bottom: 6px"><strong>Selected paper</strong></p>
+      <ul class="rule-list">
+        {% for p in site.data.publications %}{% if p.doi == "10.3847/PSJ/ae939c" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
   <div class="container split" id="rzsm">
     <div>
       <p class="eyebrow" style="color: var(--teal-text)">Land remote sensing</p>
@@ -34,7 +52,7 @@ permalink: /research/
   </div>
 </section>
 
-<section class="section">
+<section class="section section-mist">
   <div class="container">
     <div class="section-head"><h2 class="section-title">Cryosphere</h2></div>
     <div class="cards">
@@ -52,7 +70,7 @@ permalink: /research/
   </div>
 </section>
 
-<section class="section section-mist">
+<section class="section">
   <div class="container">
     <div class="section-head"><h2 class="section-title">Research fields</h2></div>
     <div style="display: flex; flex-wrap: wrap; gap: 10px">
