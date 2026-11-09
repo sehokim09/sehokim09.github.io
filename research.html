@@ -26,7 +26,7 @@ permalink: /research/
     </div>
     <div class="prose">
       <p>Root-zone soil moisture controls crop growth, drought and the carbon cycle, but it lies below the depth most satellite sensors can see. Signals of opportunity reflectometry (SoOp-R) reuses existing communication and navigation satellite transmissions across many frequencies. Lower frequencies penetrate deeper into soil and vegetation, so combining several of them makes it possible to retrieve soil moisture profiles and vegetation water content together.</p>
-      <p>Our work spans retrieval algorithms and sensitivity analysis, constellation and mission design (the open-source <a href="https://github.com/sehokim09/SOCRATES">SOCRATES</a> simulator), and spaceborne demonstration with NASA's SNOOPI P-band CubeSat.</p>
+      <p>Our work spans retrieval algorithms and sensitivity analysis, constellation and mission design (the open-source SOCRATES simulator), and spaceborne demonstration with NASA's SNOOPI P-band CubeSat.</p>
       <p class="meta" style="margin-bottom: 6px"><strong>Selected papers</strong></p>
       <ul class="rule-list">
         {% for p in site.data.publications %}{% if p.doi == "10.1109/TGRS.2023.3284800" or p.doi == "10.1109/IGARSS52108.2023.10281817" or p.doi == "10.1016/j.asr.2023.10.050" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
