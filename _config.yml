@@ -35,6 +35,9 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
 address: "Hawaiʻi Institute of Geophysics and Planetology, 1680 East-West Road, Honolulu, HI 96822"
+# Cloudflare Web Analytics: paste the token from the Cloudflare snippet between the quotes
+cloudflare_analytics_token: ""
+
 grad_program_url: "https://www.soest.hawaii.edu/earthsciences/academics/graduate/"
 
 exclude:

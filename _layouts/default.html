@@ -57,5 +57,8 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  {% if site.cloudflare_analytics_token and site.cloudflare_analytics_token != "" %}
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflare_analytics_token }}"}'></script>
+  {% endif %}
 </body>
 </html>
