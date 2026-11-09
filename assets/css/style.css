@@ -210,3 +210,18 @@ h1, h2, h3 { line-height: 1.1; }
 .spacecraft { background: var(--space); color: #FFFFFF; padding-top: 72px; padding-bottom: 72px; }
 .mission-sm { min-height: 360px; }
 @media (max-width: 640px) { .hero-sub { font-size: 18px; } .spacecraft { padding-top: 56px; padding-bottom: 56px; } }
+
+/* Mission cards (media on top) */
+.mission-card { display: flex; flex-direction: column; background: #0F1C24; border: 1px solid #1F2E38; overflow: hidden; }
+.mission-media { position: relative; margin: 0; height: 280px; background: #0B1218; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.mission-media svg { width: 100%; height: 100%; }
+.mission-media-light { background: #FFFFFF; }
+.mission-media img { width: 100%; height: 100%; object-fit: contain; padding: 12px; }
+.mission-media figcaption { position: absolute; right: 10px; bottom: 6px; font-size: 12px; color: #4F5F5B; }
+.mission-card-body { padding: 28px 30px 30px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.mission-card-body .eyebrow { font-size: 15px; }
+.mission-card-body h3 { margin: 0; font-family: var(--display); font-weight: 700; font-size: 40px; line-height: 1; text-transform: uppercase; color: #FFFFFF; }
+.mission-card-body p:not(.eyebrow) { margin: 0; font-size: 18px; color: var(--muted-dark); }
+.mission-card-body a { margin-top: auto; padding-top: 8px; color: #FFFFFF; font-family: var(--display); font-weight: 700; font-size: 16px; letter-spacing: 0.18em; text-transform: uppercase; }
+.mission-card-body a:hover { color: var(--gold); }
+@media (max-width: 640px) { .mission-media { height: 220px; } .mission-card-body h3 { font-size: 34px; } }

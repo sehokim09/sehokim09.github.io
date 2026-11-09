@@ -125,28 +125,21 @@ home: true
       <h2 class="section-title" style="color: #FFFFFF">Missions</h2>
     </div>
     <div class="missions-grid" style="padding-top: 0; padding-bottom: 0">
-      <article class="mission mission-sm">
-        <svg class="mission-art" viewBox="0 0 600 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-          <circle cx="440" cy="130" r="70" fill="none" stroke="#5FCCCA" stroke-opacity="0.25" stroke-width="1.5"></circle>
-          <circle cx="440" cy="130" r="120" fill="none" stroke="#5FCCCA" stroke-opacity="0.14" stroke-width="1.5"></circle>
-          <rect x="410" y="80" width="60" height="100" fill="#E8EEEC" stroke="#FFFFFF" stroke-width="1"></rect>
-          <line x1="410" y1="113" x2="470" y2="113" stroke="#6B7F7A" stroke-width="1"></line>
-          <line x1="410" y1="147" x2="470" y2="147" stroke="#6B7F7A" stroke-width="1"></line>
-          <rect x="310" y="108" width="94" height="44" fill="#1C8C8C" stroke="#5FCCCA" stroke-width="1"></rect>
-          <rect x="476" y="108" width="94" height="44" fill="#1C8C8C" stroke="#5FCCCA" stroke-width="1"></rect>
-          <line x1="357" y1="108" x2="357" y2="152" stroke="#5FCCCA" stroke-width="1"></line>
-          <line x1="523" y1="108" x2="523" y2="152" stroke="#5FCCCA" stroke-width="1"></line>
-          <line x1="440" y1="80" x2="440" y2="44" stroke="#F2A541" stroke-width="2"></line>
-        </svg>
-        <div class="mission-body">
+      <article class="mission-card">
+        <figure class="mission-media mission-media-light">
+          <img src="{{ '/assets/img/hts-1-render.jpg' | relative_url }}" alt="Rendering of the HITechSat-1 3U CubeSat with deployed antennas and side panels removed to show internal subsystems" width="1200" height="893" loading="lazy">
+          <figcaption>Rendering: Hawaiʻi Space Flight Laboratory</figcaption>
+        </figure>
+        <div class="mission-card-body">
           <p class="eyebrow">CubeSat · Hawaiʻi Space Flight Laboratory</p>
-          <h2>HITechSat-1</h2>
-          <p>A rapidly integrable 3U CubeSat platform for university missions, designed and built by students with Dr. Kim as advisor.</p>
-          <a href="https://digitalcommons.usu.edu/smallsat/2026/all2026/231/">SmallSat 2026 paper →</a>
+          <h3>HITechSat-1</h3>
+          <p>A rapidly integrable 3U CubeSat platform for university missions, built by the Hawaiʻi Space Flight Laboratory with student teams advised by Dr. Kim.</p>
+          <a href="https://digitalcommons.usu.edu/smallsat/2026/all2026/231/" target="_blank" rel="noopener">SmallSat 2026 paper →</a>
         </div>
       </article>
-      <article class="mission mission-sm">
-        <svg class="mission-art" viewBox="0 0 600 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <article class="mission-card">
+        <figure class="mission-media">
+          <svg viewBox="0 0 600 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
           <ellipse cx="430" cy="140" rx="200" ry="70" fill="#5FCCCA" fill-opacity="0.06" stroke="#5FCCCA" stroke-opacity="0.25" stroke-width="1.5"></ellipse>
           <path d="M240 150 Q430 70 620 150" fill="none" stroke="#F2A541" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="4 8"></path>
           <rect x="268" y="128" width="18" height="12" fill="#E8EEEC"></rect><rect x="252" y="131" width="14" height="6" fill="#5FCCCA"></rect><rect x="288" y="131" width="14" height="6" fill="#5FCCCA"></rect>
@@ -156,9 +149,10 @@ home: true
           <line x1="420" y1="125" x2="434" y2="143" stroke="#F7937A" stroke-width="2.5"></line>
           <line x1="490" y1="128" x2="512" y2="140" stroke="#F7937A" stroke-width="2.5"></line>
         </svg>
-        <div class="mission-body">
+        </figure>
+        <div class="mission-card-body">
           <p class="eyebrow">Next</p>
-          <h2>Satellite crosslinks</h2>
+          <h3>Satellite crosslinks</h3>
           <p>Radio links between satellites that sense magnetic fields and plasma in regions ground-based links cannot reach.</p>
           <a href="{{ '/research/#radio-science' | relative_url }}">Learn more →</a>
         </div>
