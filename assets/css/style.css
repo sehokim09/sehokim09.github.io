@@ -152,7 +152,7 @@ h1, h2, h3 { line-height: 1.1; }
 
 @media (max-width: 640px) {
   body { font-size: 17px; }
-  .container { padding: 0 20px; }
+  .container { padding-left: 20px; padding-right: 20px; }
   .hero { min-height: 640px; }
   .hero-content { padding-bottom: 72px; }
   .mission h2 { font-size: 42px; }
