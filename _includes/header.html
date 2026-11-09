@@ -7,7 +7,10 @@
         <span class="brand-sub">at UH Mānoa · {{ site.tagline }}</span>
       </span>
     </a>
-    <nav class="main-nav" aria-label="Main">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+      <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><path d="M3 7h20M3 13h20M3 19h20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path></svg>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Main">
       {% for item in site.nav %}
       <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
@@ -15,3 +18,15 @@
     </nav>
   </div>
 </header>
+<script>
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var header = document.querySelector('.site-header');
+    if (!btn || !header) return;
+    btn.addEventListener('click', function () {
+      var open = header.classList.toggle('nav-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+  })();
+</script>

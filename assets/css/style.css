@@ -181,3 +181,26 @@ h1, h2, h3 { line-height: 1.1; }
 .link-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
 .link-chips a { border: 1px solid #C5D3CE; border-radius: 999px; padding: 9px 16px; font-size: 16px; font-weight: 700; text-decoration: none; }
 .link-chips a:hover { border-color: var(--teal); }
+
+/* Mobile menu */
+.nav-toggle { display: none; background: transparent; border: 1px solid rgba(255,255,255,0.35); color: #FFFFFF; width: 46px; height: 46px; border-radius: 6px; align-items: center; justify-content: center; cursor: pointer; }
+.nav-toggle:hover { border-color: var(--gold); }
+@media (max-width: 960px) {
+  .nav-toggle { display: inline-flex; }
+  .header-inner { flex-wrap: wrap; }
+  .main-nav { display: none; width: 100%; flex-direction: column; align-items: stretch; gap: 0; padding: 8px 0 4px; }
+  .site-header.nav-open .main-nav { display: flex; }
+  .site-header.nav-open { background: var(--space); }
+  .main-nav a { padding: 14px 0; border-bottom: 1px solid var(--space-line); }
+  .main-nav a:hover, .main-nav a[aria-current="page"] { border-bottom-color: var(--space-line); color: var(--gold); }
+}
+@media (max-width: 640px) {
+  .brand-name { font-size: 22px; }
+  .brand-sub { font-size: 13px; }
+  nav.footer-col { flex-direction: row; flex-wrap: wrap; gap: 4px 20px; }
+  nav.footer-col .footer-head { width: 100%; }
+  .footer-grid { gap: 28px; padding-top: 40px; }
+  .section { padding-top: 56px; padding-bottom: 56px; }
+  .page-hero .container { padding-top: 48px; padding-bottom: 44px; }
+  .deadline { font-size: 15px; }
+}
