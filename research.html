@@ -2,67 +2,62 @@
 layout: default
 title: Research
 eyebrow: What we do
-lede: Microwave remote sensing of Earth and planetary parameters — and the instruments and small satellites that make the measurements.
+lede: Radio remote sensing of Earth and planets — using signals already in orbit and on the ground to measure what conventional sensors can't.
 permalink: /research/
 ---
 <section class="section">
-  <div class="container split" id="hitechsat">
+  <div class="container split" id="ecipes">
     <div>
-      <p class="eyebrow" style="color: var(--teal-text)">Mission</p>
-      <h2 class="section-title">HITechSat</h2>
+      <p class="eyebrow" style="color: var(--teal-text)">Ionospheric remote sensing</p>
+      <h2 class="section-title">ECIPES: Tsunami detection</h2>
     </div>
     <div class="prose">
-      <p>The HITechSat (HTS) program develops rapidly integrable CubeSat platforms for flying new RF instruments. Its first spacecraft, <strong>HITechSat-1</strong>, is a 3U CubeSat organized into six subsystems — structure and thermal, on-board computer and flight software, electrical power, attitude determination and control, communications and ground station, and payload.</p>
-      <p>HTS-1 is also a training ground: senior capstone students design and build its subsystems.</p>
+      <p>Ships at sea continuously broadcast their position over the Automatic Identification System (AIS), a VHF radio signal. At these low frequencies the signals are highly sensitive to the ionosphere's electron content. ECIPES uses AIS broadcasts as signals of opportunity to sense the ionosphere, with the goal of detecting the ionospheric disturbances that tsunamis generate as they travel across the ocean.</p>
     </div>
   </div>
 </section>
 
 <section class="section section-mist">
-  <div class="container split" id="frames">
+  <div class="container split" id="rzsm">
     <div>
-      <p class="eyebrow" style="color: var(--teal-text)">Project</p>
-      <h2 class="section-title">FRAMES</h2>
+      <p class="eyebrow" style="color: var(--teal-text)">Land remote sensing</p>
+      <h2 class="section-title">Root-zone soil moisture</h2>
     </div>
     <div class="prose">
-      <p>FRAMES monitors the ionosphere and magnetic field using radio measurements — Faraday rotation, total electron content (TEC) retrieval and dual-frequency methods.</p>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container split" id="soop">
-    <div>
-      <p class="eyebrow" style="color: var(--teal-text)">Technique</p>
-      <h2 class="section-title">Signals of Opportunity</h2>
-    </div>
-    <div class="prose">
-      <p>Signals-of-opportunity reflectometry (SoOp-R) and GNSS reflectometry reuse transmissions already in orbit — navigation and communication satellites — as bistatic radar sources. Delay-Doppler mapping of the reflected signals lets small, low-power receivers measure soil moisture, snow, sea ice and other surface properties.</p>
-    </div>
-  </div>
-</section>
-
-<section class="section section-mist">
-  <div class="container split" id="planetary">
-    <div>
-      <p class="eyebrow" style="color: var(--teal-text)">Science</p>
-      <h2 class="section-title">Planetary radio science</h2>
-    </div>
-    <div class="prose">
-      <p>Radio occultation and planetary radar probe atmospheres, ionospheres and magnetic fields beyond Earth — including using Faraday rotation in spacecraft radio links to study Jupiter's magnetic field.</p>
+      <p>Root-zone soil moisture controls crop growth, drought and the carbon cycle, but it lies below the depth most satellite sensors can see. Signals of opportunity reflectometry (SoOp-R) reuses existing communication and navigation satellite transmissions across many frequencies. Lower frequencies penetrate deeper into soil and vegetation, so combining several of them makes it possible to retrieve soil moisture profiles and vegetation water content together.</p>
+      <p>Our work spans retrieval algorithms and sensitivity analysis, constellation and mission design (the open-source <a href="https://github.com/sehokim09/SOCRATES">SOCRATES</a> simulator), and spaceborne demonstration with NASA's SNOOPI P-band CubeSat.</p>
+      <p class="meta" style="margin-bottom: 6px"><strong>Selected papers</strong></p>
+      <ul class="rule-list">
+        {% for p in site.data.publications %}{% if p.doi == "10.1109/TGRS.2023.3284800" or p.doi == "10.1109/IGARSS52108.2023.10281817" or p.doi == "10.1016/j.asr.2023.10.050" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+      </ul>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <div class="section-head"><h2 class="section-title">Applications</h2></div>
+    <div class="section-head"><h2 class="section-title">Cryosphere</h2></div>
     <div class="cards">
-      <article class="card"><h3>Agriculture &amp; carbon cycle</h3></article>
-      <article class="card"><h3>Hydrology</h3></article>
-      <article class="card"><h3>Cryosphere</h3></article>
-      <article class="card"><h3>Natural hazards</h3></article>
-      <article class="card"><h3>Planetary science</h3></article>
+      <article class="card" id="sea-ice">
+        <span class="tag">GNSS-Reflectometry</span>
+        <h3>Sea ice remote sensing</h3>
+        <p>Observing sea ice with reflected GNSS signals. More details coming soon.</p>
+      </article>
+      <article class="card" id="snow">
+        <span class="tag">P-band signals of opportunity</span>
+        <h3>Snow remote sensing</h3>
+        <p>Observing snow with P-band signals of opportunity. More details coming soon.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-mist">
+  <div class="container">
+    <div class="section-head"><h2 class="section-title">Research fields</h2></div>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px">
+      {% assign fields = "Radio Remote Sensing,Signals of Opportunity,GNSS-Reflectometry,Radio Occultation,Space Mission Design and Analysis,Spacecraft Systems" | split: "," %}
+      {% for f in fields %}<span style="background: #FFFFFF; border: 1px solid #C5D3CE; border-radius: 999px; padding: 8px 16px; font-size: 16px">{{ f }}</span>{% endfor %}
     </div>
   </div>
 </section>

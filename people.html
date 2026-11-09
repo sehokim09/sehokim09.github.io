@@ -12,9 +12,14 @@ permalink: /people/
       <h2 class="section-title">{{ pi.name }}</h2>
     </div>
     <div class="prose">
-      <p><strong>{{ pi.title }}</strong><br><span class="meta">{{ pi.extra }}</span></p>
+      <p>{% for t in pi.titles %}<strong>{{ t }}</strong><br>{% endfor %}<span class="meta">University of Hawaiʻi at Mānoa</span></p>
       <p>{{ pi.bio }}</p>
-      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a> · <a href="{{ site.scholar_url }}">Google Scholar</a> · <a href="{{ site.higp_url }}">HIGP profile</a></p>
+      <p class="meta" style="margin-bottom: 6px"><strong>Education</strong></p>
+      <ul style="margin: 0 0 14px; padding-left: 20px; font-size: 17px; line-height: 1.55">
+        {% for e in pi.education %}<li>{{ e }}</li>{% endfor %}
+      </ul>
+      <p class="meta">Member, IEEE Geoscience and Remote Sensing Society (GRSS) · Member, American Geophysical Union (AGU)</p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a> · <a href="{{ site.scholar_url }}">Google Scholar</a> · <a href="{{ site.orcid_url }}">ORCID</a> · <a href="{{ site.linkedin_url }}">LinkedIn</a> · <a href="{{ site.higp_url }}">HIGP profile</a></p>
     </div>
   </div>
 </section>

@@ -6,4 +6,11 @@
 #   link: "https://..."        # optional
 
 - date: "2026"
+  text: "New paper in The Planetary Science Journal: Faraday rotation as a probe of Jupiter's magnetic field."
+  link: "https://doi.org/10.3847/PSJ/ae939c"
+
+- date: "2026"
+  text: "HITechSat-1, a rapidly integrable 3U platform for university CubeSat missions, presented at the AIAA/USU Conference on Small Satellites."
+
+- date: "Jan 2026"
   text: "Seho Kim joins the Hawaiʻi Institute of Geophysics and Planetology as Assistant Professor."

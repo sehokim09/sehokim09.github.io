@@ -9,15 +9,19 @@
 pi:
   name: "Seho Kim"
   role: "Principal Investigator"
-  title: "Assistant Professor, Hawaiʻi Institute of Geophysics and Planetology · Hawaiʻi Space Flight Laboratory"
-  extra: "Cooperating Graduate Faculty, Department of Earth Sciences, University of Hawaiʻi at Mānoa"
+  titles:
+    - "Assistant Professor, Hawaiʻi Institute of Geophysics and Planetology"
+    - "Faculty Member, Hawaiʻi Space Flight Laboratory"
+    - "Cooperating Graduate Faculty, Department of Earth Sciences"
   bio: >-
-    Seho develops microwave remote sensing techniques for Earth and planetary science — bistatic radar,
-    radio occultation, GNSS and signals-of-opportunity reflectometry — and the compact RF instruments and
-    CubeSats that fly them. Before joining HIGP he was a NASA JPL postdoctoral fellow (2023–2025), working on
-    sea ice thickness retrieval with Spire CubeSats and radio occultation for mapping Jupiter's magnetic field.
-    He received his Ph.D. from Purdue University (2023), where his work focused on SoOp reflectometry and NASA's
-    SNOOPI mission, and his M.S. (2018) and B.S. (2016) from Korea Aerospace University.
+    Seho develops radio remote sensing techniques for Earth and planetary science — signals of opportunity,
+    GNSS-Reflectometry and radio occultation — together with the mission design and small spacecraft that
+    make the measurements. Before joining the University of Hawaiʻi at Mānoa in 2026, he was a Postdoctoral
+    Fellow in the Radio Science and Solar System Radar Group at NASA's Jet Propulsion Laboratory (2023–2025).
+  education:
+    - "Ph.D., Aeronautics and Astronautics, Purdue University, 2023 — Dissertation: Multiple Signals of Opportunity for Land Remote Sensing"
+    - "M.S., Electronic and Information Engineering, Korea Aerospace University, 2018"
+    - "B.S., Electronics and Avionics Engineering, Korea Aerospace University, 2016 (magna cum laude)"
 
 members: []
 

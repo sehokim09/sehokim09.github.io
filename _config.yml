@@ -7,13 +7,16 @@ description: >-
   bistatic radar and small-satellite missions.
 author: Seho Kim
 email: sehokim@hawaii.edu
-url: "https://sehokim09.github.io"
+url: "https://kimlab.space"
 baseurl: ""
 lang: en
 
 # Profile links (shown in the footer and on the home page)
-scholar_url: "https://scholar.google.com/"   # TODO: replace with your Google Scholar profile URL
-higp_url: "https://www.higp.hawaii.edu/"      # TODO: replace with your HIGP profile URL
+scholar_url: "https://scholar.google.com/citations?user=T39LXj4AAAAJ&hl=en"
+higp_url: "https://www.higp.hawaii.edu/index.php/people/seho-kim/"
+orcid_url: "https://orcid.org/0000-0001-9227-062X"
+linkedin_url: "https://www.linkedin.com/in/sehokim09"
+github_url: "https://github.com/sehokim09"
 
 nav:
   - title: Research

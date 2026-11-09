@@ -1,14 +1,42 @@
-# Courses, most recent first. Add a course by copying the block below.
-# Every field except code is optional.
+# Courses. `current: true` = UH Mānoa courses shown as cards; others are listed under "Previously".
 #
-# - code: "EPET 400"
-#   title: "Official course title"
-#   terms: "Fall 2026"
-#   description: "One or two sentences."
+# - code: "EPET/ME 400"
+#   title: "Course title"
+#   terms: "Spring 2026"
+#   place: "UH Mānoa"
+#   role: "Lecturer"
+#   description: "Optional one or two sentences."
+#   current: true
 
-- code: "EPET 401"
-  title: "Capstone course"        # TODO: replace with the official course title
+- code: "EPET/ME 401"
+  title: "Capstone Project: Producing a Science Satellite"
   terms: "Fall 2026"
+  place: "UH Mānoa"
+  role: "Lecturer"
   description: "Student teams design and build subsystems of the HITechSat-1 CubeSat as their senior capstone projects."
+  current: true
 
-- code: "EPET 400"                # TODO: add title, terms and a short description
+- code: "EPET/ME 400"
+  title: "Space Mission Design"
+  terms: "Spring 2026"
+  place: "UH Mānoa"
+  role: "Lecturer"
+  current: true
+
+- code: "AAE 450"
+  title: "Spacecraft Design"
+  terms: "Fall 2022, 2023, 2024"
+  place: "Purdue University"
+  role: "Invited Lecturer"
+
+- code: "AAE 497 / 597"
+  title: "Earth Observation Mission Design"
+  terms: "Fall 2020, Spring 2021"
+  place: "Purdue University"
+  role: "Mentor"
+
+- code: "AAE 450"
+  title: "Spacecraft Design"
+  terms: "Fall 2020"
+  place: "Purdue University"
+  role: "Mentor"

@@ -6,14 +6,25 @@ permalink: /teaching/
 ---
 <section class="section">
   <div class="container">
+    <div class="section-head"><h2 class="section-title">At UH Mānoa</h2></div>
     <div class="cards">
-      {% for c in site.data.teaching %}
+      {% for c in site.data.teaching %}{% if c.current %}
       <article class="card">
-        <span class="tag">{{ c.code }}{% if c.terms %} · {{ c.terms }}{% endif %}</span>
-        {% if c.title %}<h3>{{ c.title }}</h3>{% else %}<h3>{{ c.code }}</h3>{% endif %}
+        <span class="tag">{{ c.code }} · {{ c.terms }}</span>
+        <h3>{{ c.title }}</h3>
         {% if c.description %}<p>{{ c.description }}</p>{% endif %}
       </article>
-      {% endfor %}
+      {% endif %}{% endfor %}
     </div>
+  </div>
+</section>
+<section class="section section-mist">
+  <div class="container">
+    <div class="section-head"><h2 class="section-title">Previously</h2></div>
+    <ul class="rule-list">
+      {% for c in site.data.teaching %}{% unless c.current %}
+      <li><strong>{{ c.code }} {{ c.title }}</strong> · {{ c.role }}, {{ c.place }} <span class="pub-meta">{{ c.terms }}</span></li>
+      {% endunless %}{% endfor %}
+    </ul>
   </div>
 </section>

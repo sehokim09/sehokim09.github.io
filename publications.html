@@ -4,19 +4,24 @@ title: Publications
 eyebrow: Papers
 permalink: /publications/
 ---
+{% assign journals = site.data.publications | where: "type", "journal" %}
+{% assign confs = site.data.publications | where: "type", "conference" %}
 <section class="section">
   <div class="container">
-    {% if site.data.publications.size > 0 %}
-    {% assign by_year = site.data.publications | group_by: "year" %}
-    {% for group in by_year %}
-    <h2 class="pub-year">{{ group.name }}</h2>
+    <div class="section-head">
+      <h2 class="section-title">Journal articles</h2>
+      <a class="more-link" href="{{ site.scholar_url }}">Google Scholar →</a>
+    </div>
     <ul class="rule-list">
-      {% for p in group.items %}{% include pub-item.html pub=p %}{% endfor %}
+      {% for p in journals %}{% include pub-item.html pub=p %}{% endfor %}
     </ul>
-    {% endfor %}
-    <p class="empty-note" style="margin-top: 32px">Full list on <a href="{{ site.scholar_url }}">Google Scholar</a>.</p>
-    {% else %}
-    <p class="empty-note">The publication list is being updated. In the meantime, see <a href="{{ site.scholar_url }}">Google Scholar</a>.</p>
-    {% endif %}
+  </div>
+</section>
+<section class="section section-mist">
+  <div class="container">
+    <div class="section-head"><h2 class="section-title">Conference papers</h2></div>
+    <ul class="rule-list">
+      {% for p in confs %}{% include pub-item.html pub=p %}{% endfor %}
+    </ul>
   </div>
 </section>

@@ -1,13 +1,128 @@
-# Publications, newest first. The home page shows the first 3.
-# Add a paper by copying the block below to the top of the list.
+# Publications, newest first within each type. The home page shows the first 3 journal articles.
+# Add a paper by copying a block to the top of the list.
 #
 # - year: 2026
 #   title: "Paper title"
-#   authors: "S. Kim, A. Coauthor, B. Coauthor"
-#   venue: "Journal or conference name, volume(issue), pages"
-#   type: journal              # journal | conference | other
+#   authors: "S. Kim, A. Coauthor, and B. Coauthor"   # "S. Kim" is bolded automatically
+#   venue: "Journal or conference name, volume(issue)"
+#   type: journal              # journal | conference
 #   doi: "10.xxxx/xxxxx"       # optional
-#   pdf: "/assets/papers/file.pdf"   # optional
-#   selected: true             # optional: show on the home page
 
-[]
+# ---------------- Journal articles ----------------
+- year: 2026
+  type: journal
+  title: "Faraday Rotation as a Probe of Jupiter's Magnetic Field: Error Modeling and Sensitivity Analysis"
+  authors: "S. Kim, D. Buccino, N. Rodriguez-Alvarez, M. Parisi, W. Majid, and K. Oudrhiri"
+  venue: "The Planetary Science Journal, 7(8)"
+  doi: "10.3847/PSJ/ae939c"
+
+- year: 2026
+  type: journal
+  title: "Sea-Ice Thickness Retrieval Using Integrated Grazing-Angle and Near-Nadir GNSS-R Reflectivity from the Spire Constellation"
+  authors: "S. Kim, N. Rodriguez-Alvarez, and K. Oudrhiri"
+  venue: "IEEE Transactions on Geoscience and Remote Sensing, vol. 64"
+  doi: "10.1109/TGRS.2026.3714677"
+
+- year: 2025
+  type: journal
+  title: "A Multiarc Approach to Detecting Uranus's Normal Modes via Doppler Tracking of a Planetary Orbiter"
+  authors: "M. Parisi, S. Kim, C. Mankovich, J. Fuller, A. J. Friedson, and S. Markham"
+  venue: "The Planetary Science Journal, 6(12)"
+  doi: "10.3847/PSJ/ae271e"
+
+- year: 2025
+  type: journal
+  title: "Saturn's small-scale winds revealed by its high-degree gravity field"
+  authors: "S. Kim, M. Parisi, C. Mankovich, D. Buccino, and O. Yang"
+  venue: "Geophysical Research Letters, 52(5), e2024GL113236"
+  doi: "10.1029/2024GL113236"
+
+- year: 2024
+  type: journal
+  title: "SNOOPI: Demonstrating Earth remote sensing using P-band signals of opportunity (SoOp) on a CubeSat"
+  authors: "J. L. Garrison et al."
+  venue: "Advances in Space Research, 73(6), pp. 2855–2879"
+  doi: "10.1016/j.asr.2023.10.050"
+
+- year: 2023
+  type: journal
+  title: "Retrieval of Subsurface Soil Moisture and Vegetation Water Content from Multi-frequency SoOp-Reflectometry: Sensitivity Analysis"
+  authors: "S. Kim, J. L. Garrison, and M. Kurum"
+  venue: "IEEE Transactions on Geoscience and Remote Sensing, vol. 61"
+  doi: "10.1109/TGRS.2023.3284800"
+
+- year: 2019
+  type: journal
+  title: "Hardware Implementation of KLT Tracker for Real-time Intruder Detection and Tracking using On-board Camera"
+  authors: "T. Nam, S. Kim, and D. Jung"
+  venue: "International Journal of Aeronautical and Space Sciences, 20(1), pp. 300–314"
+  doi: "10.1007/s42405-018-0131-2"
+
+- year: 2018
+  type: journal
+  title: "Experimental Validation of the Onboard Transient Luminous Events Observation System for VisionCube via Ground Simulation Environment"
+  authors: "S. Kim, T. Nam, and D. Jung"
+  venue: "Aerospace, 5(4):100"
+  doi: "10.3390/aerospace5040100"
+
+# ---------------- Conference papers ----------------
+- year: 2026
+  type: conference
+  title: "HITechSat-1: A Rapidly Integrable 3U Platform for University CubeSat Missions"
+  authors: "S. Kim et al."
+  venue: "Proceedings of the AIAA/USU Conference on Small Satellites, SSC26-P4-87-2"
+
+- year: 2023
+  type: conference
+  title: "A mission design tool for satellite constellations using multi-frequency signals of opportunity"
+  authors: "S. Kim and J. L. Garrison"
+  venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 4218–4221"
+  doi: "10.1109/IGARSS52108.2023.10281817"
+
+- year: 2022
+  type: conference
+  title: "Instrument Science Experiments on the SNOOPI P-Band Reflectometry Mission"
+  authors: "J. L. Garrison et al."
+  venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 7146–7149"
+  doi: "10.1109/IGARSS46834.2022.9883233"
+
+- year: 2022
+  type: conference
+  title: "Multi-Frequency Signals of Opportunity Soil Moisture Retrievals for Agricultural Applications"
+  authors: "S. Kim, E. P. Smith, B. R. Nold, A. S. Choudhari, and J. L. Garrison"
+  venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 4204–4207"
+  doi: "10.1109/IGARSS46834.2022.9883090"
+
+- year: 2022
+  type: conference
+  title: "Snooping Around: Observation Planning for the Signals of Opportunity P-Band Investigation (SNOOPI)"
+  authors: "J. Mansell, E. Rivera, S. Kim et al."
+  venue: "Proceedings of the AIAA/USU Conference on Small Satellites, SSC22-WKVIII-04"
+
+- year: 2021
+  type: conference
+  title: "SNOOPI: Demonstrating P-band reflectometry from orbit"
+  authors: "J. L. Garrison et al."
+  venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 164–167"
+  doi: "10.1109/IGARSS47720.2021.9554546"
+
+- year: 2021
+  type: conference
+  title: "Retrieval of root-zone soil moisture profiles from multi-frequency signals of opportunity: A simulation study"
+  authors: "S. Kim and J. L. Garrison"
+  venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 155–158"
+  doi: "10.1109/IGARSS47720.2021.9554561"
+
+- year: 2020
+  type: conference
+  title: "Analyses Supporting SNOOPI: a P-Band Reflectometry Demonstration"
+  authors: "J. L. Garrison, R. Shah, S. Kim et al."
+  venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 3349–3352"
+  doi: "10.1109/IGARSS39084.2020.9323547"
+
+- year: 2020
+  type: conference
+  title: "Development of an End-to-End Mission Simulator for Land Remote Sensing with Signals of Opportunity"
+  authors: "S. Kim and J. L. Garrison"
+  venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 5933–5936"
+  doi: "10.1109/IGARSS39084.2020.9323710"
