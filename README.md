@@ -15,6 +15,7 @@ Most updates are a single edit to a file in `_data/`. You can edit them directly
 | Community resources | `_data/resources.yml` |
 | Affiliations strip (home page) | `_data/affiliations.yml` |
 | Recruiting page | `join.html` |
+| CV (PDF) | replace `assets/cv/Seho_Kim_CV.pdf` (keep the file name) |
 | Research text | `research.html` |
 | Home page text | `index.html` |
 | Email, address, profile links, menu | `_config.yml` |
