@@ -9,6 +9,7 @@
 pi:
   name: "Seho Kim"
   role: "Principal Investigator"
+  photo: "/assets/img/people/seho-kim.jpg"
   titles:
     - "Assistant Professor, Hawaiʻi Institute of Geophysics and Planetology"
     - "Faculty Member, Hawaiʻi Space Flight Laboratory"

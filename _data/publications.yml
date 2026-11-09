@@ -7,6 +7,7 @@
 #   venue: "Journal or conference name, volume(issue)"
 #   type: journal              # journal | conference
 #   doi: "10.xxxx/xxxxx"       # optional
+#   url: "https://..."         # optional, used when there is no DOI
 
 # ---------------- Journal articles ----------------
 - year: 2026
@@ -71,6 +72,7 @@
   title: "HITechSat-1: A Rapidly Integrable 3U Platform for University CubeSat Missions"
   authors: "S. Kim et al."
   venue: "Proceedings of the AIAA/USU Conference on Small Satellites, SSC26-P4-87-2"
+  url: "https://digitalcommons.usu.edu/smallsat/2026/all2026/231/"
 
 - year: 2023
   type: conference
@@ -98,6 +100,7 @@
   title: "Snooping Around: Observation Planning for the Signals of Opportunity P-Band Investigation (SNOOPI)"
   authors: "J. Mansell, E. Rivera, S. Kim et al."
   venue: "Proceedings of the AIAA/USU Conference on Small Satellites, SSC22-WKVIII-04"
+  url: "https://digitalcommons.usu.edu/smallsat/2022/all2022/95/"
 
 - year: 2021
   type: conference

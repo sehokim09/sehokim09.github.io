@@ -1,5 +1,5 @@
 {% assign p = include.pub %}
 <li>
-  <span class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
+  <span class="pub-title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% elsif p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
   <span class="pub-meta">{{ p.authors | replace: "S. Kim", "<strong>S. Kim</strong>" }}{% if p.venue %} · <em>{{ p.venue }}</em>{% endif %}, {{ p.year }}</span>
 </li>

@@ -5,7 +5,7 @@
   {% for n in items %}
   <li class="news-item">
     <span class="news-date">{{ n.date }}</span>
-    <span>{% if n.link %}<a href="{{ n.link }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span>
+    <span>{% if n.link %}<a href="{% if n.link contains '://' %}{{ n.link }}{% else %}{{ n.link | relative_url }}{% endif %}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span>
   </li>
   {% endfor %}
 </ul>

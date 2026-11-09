@@ -12,30 +12,13 @@ permalink: /research/
       <h2 class="section-title">Ionospheric sensing with ship signals</h2>
     </div>
     <div class="prose">
-      <p>Ships at sea continuously broadcast their position over the Automatic Identification System (AIS), a VHF radio signal. At these low frequencies the signals are highly sensitive to the ionosphere, so we use AIS broadcasts as signals of opportunity to measure perturbations in ionospheric electron density.</p>
+      <p>Ships at sea continuously broadcast their position over the Automatic Identification System (AIS), a VHF radio signal. At these low frequencies the signals are highly sensitive to the ionosphere: Faraday rotation of their polarization and changes in their propagation reveal the electron content along the path. We use AIS broadcasts as signals of opportunity to measure perturbations in ionospheric electron density.</p>
       <p>A key application is <strong>tsunami detection</strong>: a tsunami pushes the atmosphere above it into waves that travel up and disturb the ionosphere. Dense ship traffic could turn the open ocean into a large network for spotting those disturbances.</p>
     </div>
   </div>
 </section>
 
 <section class="section section-mist">
-  <div class="container split" id="faraday">
-    <div>
-      <p class="eyebrow" style="color: var(--teal-text)">Radio science</p>
-      <h2 class="section-title">Magnetic fields &amp; plasma by Faraday rotation</h2>
-    </div>
-    <div class="prose">
-      <p>When a linearly polarized radio wave passes through a magnetized plasma, its plane of polarization rotates. The amount of rotation depends on both the electron density and the magnetic field along the path, so if one is known, the other can be solved for.</p>
-      <p>We use radio links between ground stations and spacecraft to measure this rotation and probe magnetic fields and plasma, from Earth's ionosphere to Jupiter's magnetosphere. Next, we are extending the technique to satellite-to-satellite crosslinks, which can sample regions that ground-based links cannot reach.</p>
-      <p class="meta" style="margin-bottom: 6px"><strong>Selected paper</strong></p>
-      <ul class="rule-list">
-        {% for p in site.data.publications %}{% if p.doi == "10.3847/PSJ/ae939c" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="section">
   <div class="container split" id="rzsm">
     <div>
       <p class="eyebrow" style="color: var(--teal-text)">Land remote sensing</p>
@@ -47,6 +30,23 @@ permalink: /research/
       <p class="meta" style="margin-bottom: 6px"><strong>Selected papers</strong></p>
       <ul class="rule-list">
         {% for p in site.data.publications %}{% if p.doi == "10.1109/TGRS.2023.3284800" or p.doi == "10.1109/IGARSS52108.2023.10281817" or p.doi == "10.1016/j.asr.2023.10.050" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split" id="radio-science">
+    <div>
+      <p class="eyebrow" style="color: var(--teal-text)">Space plasma radio science</p>
+      <h2 class="section-title">Magnetic fields &amp; plasma with radio links</h2>
+    </div>
+    <div class="prose">
+      <p>When a linearly polarized radio wave passes through a magnetized plasma, its plane of polarization rotates. The amount of rotation depends on both the electron density and the magnetic field along the path, so if one is known, the other can be solved for.</p>
+      <p>We use radio links between ground stations and spacecraft to measure this rotation and probe magnetic fields and plasma, from Earth's ionosphere to Jupiter's magnetosphere. Next, we are extending the technique to satellite-to-satellite crosslinks, which can sample regions that ground-based links cannot reach.</p>
+      <p class="meta" style="margin-bottom: 6px"><strong>Selected paper</strong></p>
+      <ul class="rule-list">
+        {% for p in site.data.publications %}{% if p.doi == "10.3847/PSJ/ae939c" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
       </ul>
     </div>
   </div>

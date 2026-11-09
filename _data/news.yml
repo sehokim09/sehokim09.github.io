@@ -5,12 +5,21 @@
 #   text: "Short news headline — paper accepted, launch, award, talk."
 #   link: "https://..."        # optional
 
+- date: "Nov 2026"
+  text: "We're recruiting two Ph.D. students to start in Fall 2027, in ionospheric remote sensing and root-zone soil moisture remote sensing. Apply by December 1."
+  link: "/join/"
+
+- date: "2026"
+  text: "New paper in IEEE Transactions on Geoscience and Remote Sensing: sea-ice thickness retrieval using grazing-angle and near-nadir GNSS-R reflectivity from the Spire constellation."
+  link: "https://doi.org/10.1109/TGRS.2026.3714677"
+
 - date: "2026"
   text: "New paper in The Planetary Science Journal: Faraday rotation as a probe of Jupiter's magnetic field."
   link: "https://doi.org/10.3847/PSJ/ae939c"
 
 - date: "2026"
   text: "HITechSat-1, a rapidly integrable 3U platform for university CubeSat missions, presented at the AIAA/USU Conference on Small Satellites."
+  link: "https://digitalcommons.usu.edu/smallsat/2026/all2026/231/"
 
 - date: "Jan 2026"
   text: "Seho Kim joins the Hawaiʻi Institute of Geophysics and Planetology as Assistant Professor."

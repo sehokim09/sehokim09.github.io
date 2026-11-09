@@ -161,3 +161,10 @@ h1, h2, h3 { line-height: 1.1; }
   .news-item { flex-direction: column; gap: 4px; }
 }
 .cards-3 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+
+/* Photos and openings */
+.pi-photo { width: 100%; max-width: 320px; aspect-ratio: 1; object-fit: cover; border-radius: 8px; margin-bottom: 20px; }
+.about-photo { width: 200px; aspect-ratio: 1; object-fit: cover; border-radius: 8px; margin-top: 20px; }
+.join strong { color: #FFFFFF; }
+.deadline { font-family: var(--display); font-weight: 700; font-size: 18px; letter-spacing: 0.12em; text-transform: uppercase; background: var(--gold); color: var(--ink); padding: 8px 14px; }
+.opening { border-top: 4px solid var(--green) !important; }
