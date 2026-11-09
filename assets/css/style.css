@@ -168,3 +168,16 @@ h1, h2, h3 { line-height: 1.1; }
 .join strong { color: #FFFFFF; }
 .deadline { font-family: var(--display); font-weight: 700; font-size: 18px; letter-spacing: 0.12em; text-transform: uppercase; background: var(--gold); color: var(--ink); padding: 8px 14px; }
 .opening { border-top: 4px solid var(--green) !important; }
+
+/* FAQ and link chips */
+.faq { display: flex; flex-direction: column; border-top: 1px solid #C5D3CE; }
+.faq details { border-bottom: 1px solid #C5D3CE; padding: 4px 0; }
+.faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px 0; font-weight: 700; font-size: 19px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-family: var(--display); font-size: 28px; line-height: 1; color: var(--green); }
+.faq details[open] summary::after { content: "–"; }
+.faq summary:hover { color: var(--green); }
+.faq details p { margin: 0 0 18px; font-size: 18px; line-height: 1.6; }
+.link-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+.link-chips a { border: 1px solid #C5D3CE; border-radius: 999px; padding: 9px 16px; font-size: 16px; font-weight: 700; text-decoration: none; }
+.link-chips a:hover { border-color: var(--teal); }

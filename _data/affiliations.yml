@@ -1,4 +1,4 @@
-# Affiliations and collaborating institutions shown on the home page.
+# Affiliations shown on the home page.
 # Logos can replace the text later (add a `logo:` path and update _includes/affiliations.html).
 
 - name: "Hawaiʻi Institute of Geophysics and Planetology"
@@ -7,7 +7,3 @@
   url: "https://www.hsfl.hawaii.edu/"
 - name: "SOEST, University of Hawaiʻi at Mānoa"
   url: "https://www.soest.hawaii.edu/"
-- name: "NASA Jet Propulsion Laboratory"
-  url: "https://www.jpl.nasa.gov/"
-- name: "Purdue University"
-  url: "https://www.purdue.edu/"
