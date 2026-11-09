@@ -23,7 +23,7 @@ permalink: /resources/
     <div class="section-head"><h2 class="section-title">Community resources</h2></div>
     <div class="cards">
       {% for r in site.data.resources %}
-      <a class="card card-link" href="{{ r.url }}">
+      <a class="card card-link" href="{{ r.url }}" target="_blank" rel="noopener">
         <span class="tag">{{ r.type }}</span>
         <h3>{{ r.name }}</h3>
         <p>{{ r.description }}</p>

@@ -10,11 +10,6 @@
   url: "https://www.earthdata.nasa.gov/"
   description: "NASA's Earth science data, including SMAP soil moisture and CYGNSS GNSS-Reflectometry products."
 
-- name: "CDDIS"
-  type: "GNSS data"
-  url: "https://cddis.nasa.gov/"
-  description: "NASA's archive of GNSS orbits, clocks and station data, plus ionospheric products."
-
 - name: "Commercial SmallSat Data Acquisition (CSDA)"
   type: "Data program"
   url: "https://science.nasa.gov/earth-science/csda/"
