@@ -29,7 +29,7 @@ permalink: /research/
       <p>Our work spans retrieval algorithms and sensitivity analysis, and constellation and mission design (the open-source SOCRATES simulator). Dr. Kim was also a member of the team for NASA's SNOOPI P-band CubeSat mission, led by Prof. James L. Garrison at Purdue University.</p>
       <p class="meta" style="margin-bottom: 6px"><strong>Selected papers</strong></p>
       <ul class="rule-list">
-        {% for p in site.data.publications %}{% if p.doi == "10.1109/TGRS.2023.3284800" or p.doi == "10.1109/IGARSS52108.2023.10281817" or p.doi == "10.1109/IGARSS47720.2021.9554561" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+        {% for p in site.data.publications %}{% if p.doi == "10.1109/TGRS.2023.3284800" or p.doi == "10.1109/IGARSS52108.2023.10281817" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
       </ul>
     </div>
   </div>
@@ -53,16 +53,23 @@ permalink: /research/
 </section>
 
 <section class="section section-mist">
-  <div class="container">
-    <div class="section-head"><h2 class="section-title">Cryosphere</h2></div>
+  <div class="container split" id="sea-ice">
+    <div>
+      <p class="eyebrow" style="color: var(--teal-text)">Cryosphere · GNSS-Reflectometry</p>
+      <h2 class="section-title">Sea ice</h2>
+    </div>
+    <div class="prose">
+      <p>Navigation satellite signals reflected off the polar oceans carry information about sea ice. At low grazing angles the reflections stay coherent over smooth ice, while near-nadir reflectivity responds to the ice surface itself. As a postdoctoral fellow at NASA's Jet Propulsion Laboratory, Dr. Kim led a study that combines grazing-angle and near-nadir GNSS-R reflectivity from the Spire commercial smallsat constellation to retrieve sea-ice thickness.</p>
+      <p class="meta" style="margin-bottom: 6px"><strong>Selected paper</strong></p>
+      <ul class="rule-list">
+        {% for p in site.data.publications %}{% if p.doi == "10.1109/TGRS.2026.3714677" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container" style="margin-top: 48px">
     <div class="cards">
-      <article class="card" id="sea-ice">
-        <span class="tag">GNSS-Reflectometry</span>
-        <h3>Sea ice remote sensing</h3>
-        <p>Observing sea ice with reflected GNSS signals. More details coming soon.</p>
-      </article>
       <article class="card" id="snow">
-        <span class="tag">P-band signals of opportunity</span>
+        <span class="tag">Cryosphere · P-band signals of opportunity</span>
         <h3>Snow remote sensing</h3>
         <p>Observing snow with P-band signals of opportunity. More details coming soon.</p>
       </article>
