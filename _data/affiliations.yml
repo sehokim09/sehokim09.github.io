@@ -1,11 +1,11 @@
 # Affiliations shown on the home page.
 # Logos can replace the text later (add a `logo:` path and update _includes/affiliations.html).
 
-- name: "Hawaiʻi Institute of Geophysics and Planetology"
+- name: "Hawaiʻi Institute of Geophysics and Planetology (HIGP)"
   url: "https://www.higp.hawaii.edu/"
 - name: "Hawaiʻi Space Flight Laboratory"
   url: "https://www.hsfl.hawaii.edu/"
 - name: "Department of Earth Sciences"
   url: "https://www.soest.hawaii.edu/earthsciences/"
-- name: "SOEST, University of Hawaiʻi at Mānoa"
+- name: "School of Ocean and Earth Science and Technology (SOEST)"
   url: "https://www.soest.hawaii.edu/"
