@@ -74,6 +74,34 @@
   venue: "Proceedings of the AIAA/USU Conference on Small Satellites, SSC26-P4-87-2"
   url: "https://digitalcommons.usu.edu/smallsat/2026/all2026/231/"
 
+- year: 2024
+  type: conference
+  abstract: true
+  title: "Unveiling Saturn's Small-scale Winds from Its High-degree Gravity Field based on Slepian Functions"
+  authors: "S. Kim, M. Parisi, C. Mankovich, D. Buccino, and O. Yang"
+  venue: "AGU Fall Meeting (abstract)"
+
+- year: 2024
+  type: conference
+  abstract: true
+  title: "Gravitational Seismology with the Uranus Orbiter and Probe mission"
+  authors: "M. Parisi et al."
+  venue: "AGU Fall Meeting (abstract)"
+
+- year: 2024
+  type: conference
+  abstract: true
+  title: "Toward Spaceborne P-band Remote Sensing of the Water Cycle using Signals of Opportunity (SoOp)"
+  authors: "J. L. Garrison et al."
+  venue: "AGU Chapman Conference on Remote Sensing of the Water Cycle (abstract)"
+
+- year: 2024
+  type: conference
+  abstract: true
+  title: "Algorithm Development and Calibration Activities for the SNOOPI Mission"
+  authors: "E. Smith, B. Nold, S. Kim et al."
+  venue: "AGU Chapman Conference on Remote Sensing of the Water Cycle (abstract)"
+
 - year: 2023
   type: conference
   title: "A mission design tool for satellite constellations using multi-frequency signals of opportunity"
@@ -102,6 +130,13 @@
   venue: "Proceedings of the AIAA/USU Conference on Small Satellites, SSC22-WKVIII-04"
   url: "https://digitalcommons.usu.edu/smallsat/2022/all2022/95/"
 
+- year: 2022
+  type: conference
+  abstract: true
+  title: "Sensitivity of Root-zone Soil Moisture Retrieval to Observation Parameters in Signals of Opportunity Reflectometry"
+  authors: "S. Kim, J. L. Garrison, and M. Kurum"
+  venue: "AGU Fall Meeting (abstract)"
+
 - year: 2021
   type: conference
   title: "SNOOPI: Demonstrating P-band reflectometry from orbit"
@@ -115,6 +150,20 @@
   authors: "S. Kim and J. L. Garrison"
   venue: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 155–158"
   doi: "10.1109/IGARSS47720.2021.9554561"
+
+- year: 2021
+  type: conference
+  abstract: true
+  title: "Hydrology Remote Sensing using P-band Signals of Opportunity (SoOp), the SNOOPI Demonstration Mission"
+  authors: "J. L. Garrison et al."
+  venue: "AGU Fall Meeting (abstract)"
+
+- year: 2021
+  type: conference
+  abstract: true
+  title: "Sub-surface Soil Moisture Profile Retrieval using Multi-frequency Signals of Opportunity"
+  authors: "J. L. Garrison et al."
+  venue: "AGU Fall Meeting (abstract)"
 
 - year: 2020
   type: conference
