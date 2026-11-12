@@ -87,20 +87,7 @@
   title: "Gravitational Seismology with the Uranus Orbiter and Probe mission"
   authors: "M. Parisi et al."
   venue: "AGU Fall Meeting (abstract)"
-
-- year: 2024
-  type: conference
-  abstract: true
-  title: "Toward Spaceborne P-band Remote Sensing of the Water Cycle using Signals of Opportunity (SoOp)"
-  authors: "J. L. Garrison et al."
-  venue: "AGU Chapman Conference on Remote Sensing of the Water Cycle (abstract)"
-
-- year: 2024
-  type: conference
-  abstract: true
-  title: "Algorithm Development and Calibration Activities for the SNOOPI Mission"
-  authors: "E. Smith, B. Nold, S. Kim et al."
-  venue: "AGU Chapman Conference on Remote Sensing of the Water Cycle (abstract)"
+  url: "https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1701927"
 
 - year: 2023
   type: conference
@@ -157,6 +144,7 @@
   title: "Hydrology Remote Sensing using P-band Signals of Opportunity (SoOp), the SNOOPI Demonstration Mission"
   authors: "J. L. Garrison et al."
   venue: "AGU Fall Meeting (abstract)"
+  url: "https://ui.adsabs.harvard.edu/abs/2021AGUFM.A33C..05G/abstract"
 
 - year: 2021
   type: conference
