@@ -90,6 +90,22 @@
   venue: "AGU Fall Meeting (abstract)"
   url: "https://studio.m-anage.com/agu/agu24/meetingapp.cgi/Paper/1701927"
 
+- year: 2024
+  type: conference
+  abstract: true
+  title: "Toward Spaceborne P-band Remote Sensing of the Water Cycle using Signals of Opportunity (SoOp)"
+  authors: "J. L. Garrison et al."
+  venue: "AGU Chapman Conference on Remote Sensing of the Water Cycle (abstract)"
+  url: "https://studio.m-anage.com/agu/24chapman1/meetingapp.cgi/Paper/1493730"
+
+- year: 2024
+  type: conference
+  abstract: true
+  title: "Algorithm Development and Calibration Activities for the SNOOPI Mission"
+  authors: "E. Smith, B. Nold, S. Kim et al."
+  venue: "AGU Chapman Conference on Remote Sensing of the Water Cycle (abstract)"
+  url: "https://studio.m-anage.com/agu/24chapman1/meetingapp.cgi/Paper/1492202"
+
 - year: 2023
   type: conference
   title: "A mission design tool for satellite constellations using multi-frequency signals of opportunity"
