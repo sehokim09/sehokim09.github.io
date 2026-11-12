@@ -88,7 +88,7 @@
   title: "Gravitational Seismology with the Uranus Orbiter and Probe mission"
   authors: "M. Parisi et al."
   venue: "AGU Fall Meeting (abstract)"
-  url: "https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1701927"
+  url: "https://studio.m-anage.com/agu/agu24/meetingapp.cgi/Paper/1701927"
 
 - year: 2023
   type: conference
@@ -117,6 +117,14 @@
   authors: "J. Mansell, E. Rivera, S. Kim et al."
   venue: "Proceedings of the AIAA/USU Conference on Small Satellites, SSC22-WKVIII-04"
   url: "https://digitalcommons.usu.edu/smallsat/2022/all2022/95/"
+
+- year: 2022
+  type: conference
+  abstract: true
+  title: "Remote Sensing of the Water Cycle using Signals of Opportunity: Challenges and Opportunities"
+  authors: "S. Kim"
+  venue: "AGU Frontiers in Hydrology Meeting (abstract)"
+  url: "https://studio.m-anage.com/agu/hydrology22/meetingapp.cgi/Paper/1035321"
 
 - year: 2022
   type: conference
@@ -154,6 +162,7 @@
   title: "Sub-surface Soil Moisture Profile Retrieval using Multi-frequency Signals of Opportunity"
   authors: "J. L. Garrison et al."
   venue: "AGU Fall Meeting (abstract)"
+  url: "https://studio.m-anage.com/agu/fm21/meetingapp.cgi/Paper/921457"
 
 - year: 2020
   type: conference
